@@ -23,4 +23,8 @@ after-stage::
 after-clean::
 	make -C unrestrict clean
 
+stage::
+	cp -a layout/DEBIAN/postinst $(THEOS_STAGING_DIR)/DEBIAN/postinst
+	cp -a layout/DEBIAN/prerm $(THEOS_STAGING_DIR)/DEBIAN/prerm
+
 include $(THEOS_MAKE_PATH)/tool.mk
