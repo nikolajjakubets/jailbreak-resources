@@ -1,3 +1,10 @@
 [submodule "unrestrict"]
 	path = unrestrict
 	url = https://github.com/sbingner/unrestrict.git
+	branch = arm64e
+[submodule "MeridianJB"]
+	path = MeridianJB
+	url = https://github.com/pwn20wndstuff/MeridianJB.git
+[submodule "libjailbreak"]
+	path = libjailbreak
+	url = https://github.com/pwn20wndstuff/libjailbreak.git
