@@ -1,5 +1,6 @@
 ARCHS ?= arm64
 TARGET ?= iphone:clang:latest
+TARGET_CODESIGN ?= ldid2
 include $(THEOS)/makefiles/common.mk
 
 TOOL_NAME = extrainst_ ldid_wrapper
